@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <main>
+        <div>
+            <h3>
+                Learn to code by watching others
+            </h3>
+            <p id="maintext">
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div>
+            <button id="notice-btn"><b>Try it free 7 days</b> then $20/mo. thereafter </button>
+            <form action="" class="formbody">
+                <input type="text" name="fname" class="form1" placeholder="First Name" value="Jonathan" required>
+                <br>
+                <input type="text" name="lname" class="form1" placeholder="Last Name" required>
+                <br>
+                <input type="email" name="email" class="form1" placeholder="Email Address" required pattern="kunmisobanjo@gmail.com">
+                <br>
+                <input type="password" name="password" class="form1" placeholder="Password" required>
+                <br>
+                <input type="submit" id="submit-btn" value="CLAIM YOUR FREE TRIAL">
+                <p id="formfootertext"> By clicking the button you are agreeing to our <a href="http://">Terms and Services</a></p>
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>
